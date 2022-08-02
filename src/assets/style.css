@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffcccc;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 300px;
+}
+
+.filter label {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.filter input {
+    font-size: 1.5rem;
+}
+
+.filter button {
+    margin-top: 1rem;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    background-color: #cbe896;
+    color: #00171f;
+    border-radius: 1rem;
+}
